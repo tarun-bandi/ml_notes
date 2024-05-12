@@ -7,5 +7,6 @@
 - A general idea is make a greedy decision at each stage of the program - pick the best criteria.
 - Let's first define a new entropy function
 - For some set of values: we define a new entropy function $H(S) = -\sum_{v \in V(s)} \frac{|S_v|}{|S|}\log_2\frac{|S_v|}{|S|}$
-- $S_v$ is the set of values in S that are equal to v
-- $S$ is a set
+- $S_v$ is the set of values in S that are equal to v $S$ is some set. 
+- If all the elements are the same then, the entropy is 0.
+- If it is half and half, the entropy is 1.

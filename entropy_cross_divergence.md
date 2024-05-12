@@ -6,13 +6,13 @@
 - $\log(\frac{1}{x}) = -\log(x)$
 - Can use the above equation to get the uncertainty reduction when you find out an event with probability x is happening
 
-#Entropy
+# Entropy
 
 - $H(p) = -\sum_{i} p_i \log_2 (p_i)$ 
 - Entropy is the expected value of the information you get from a sample of a probability distribution
 - It can be intuited as the unpredictability of the distribution/random variable
 
-#Cross Entropy
+# Cross Entropy
 - It is the average message length 
 - Assuming each message has a uniform length $u$, the average message length will be $u$.
 - However, if the cross entropy is below $u$, we can do better.
@@ -21,7 +21,7 @@
 - $H(p, q) = -\sum_{i} p_i \log_2 (q_i)$ 
 - p is the true distribution and q is the predicted distribution
 
-#KL Divergence 
+# KL Divergence 
 - $D_{KL} (p || q) = H(p, q) - H(p)$
 - However much extra information is being sent out by the predicted prob distribution
 
