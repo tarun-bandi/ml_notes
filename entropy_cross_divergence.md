@@ -25,7 +25,7 @@
 - $D_{KL} (p || q) = H(p, q) - H(p)$
 - However much extra information is being sent out by the predicted prob distribution
 
-#Cross Entropy for ML
+# Cross Entropy for ML
 
 - Suppose we have some supervised learning problem that outputs a distribution of classes (MNIST)
 - For some one hot encoding (one class has probability 100%) the cross entropy is: $-\log(q_i)$ for an object of class $i$.
