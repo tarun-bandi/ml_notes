@@ -29,4 +29,4 @@
 
 - Suppose we have some supervised learning problem that outputs a distribution of classes (MNIST)
 - For some one hot encoding (one class has probability 100%) the cross entropy is: $-\log(q_i)$ for an object of class $i$.
-- Note that as $q_i$, the predicted distributions probability that said object is class i, gets close to 1, the loss becomes 0. As it gets close to 0, the loss $\rightarrow \infinity$
+- Note that as $q_i$, the predicted distributions probability that said object is class i, gets close to 1, the loss becomes 0. As it gets close to 0, the loss $\rightarrow \infty$
