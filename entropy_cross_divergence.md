@@ -28,4 +28,4 @@
 #Cross Entropy for ML
 
 - Suppose we have some supervised learning problem that outputs a distribution of classes (MNIST)
-- For some one hot encoding (one class has probability 100%) the cross entropy is: $ - \log(q_i)$ for an object of class $i$.
+- For some one hot encoding (one class has probability 100%) the cross entropy is: $-\log(q_i)$ for an object of class $i$.
