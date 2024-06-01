@@ -7,10 +7,9 @@
 - Can use the above equation to get the uncertainty reduction when you find out an event with probability x is happening
 
 # Entropy
-
+- It can be intuited as the unpredictability of the distribution/random variable
 - $H(p) = -\sum_{i} p_i \log_2 (p_i)$ 
 - Entropy is the expected value of the information you get from a sample of a probability distribution
-- It can be intuited as the unpredictability of the distribution/random variable
 
 # Cross Entropy
 - It is the average message length 
