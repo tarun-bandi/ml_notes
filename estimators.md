@@ -39,3 +39,13 @@ $\frac{1}{n}\sum _{i = 1}^{n}(X_i - \mu)^2$
 - However, we run into a slight issue here: the expected value is $\frac{n - 1}{n} \text{\textbf{Var}}(x)$.
 - The solution is quite simple: multiply by $\frac{n}{n - 1}$.
 - Now the estimator is $\frac{1}{n - 1}\sum _{i = 1}^{n}(X_i - \bar X)^2$
+
+## Other Estimators
+
+- In World War II, the Allies were trying to estimate the number of German tanks.
+Each tank was assigned a serial number when it was created. When the Allies
+captured a tank, they would record its serial number.
+
+
+- Question: If the Allies captured the tanks with serial numbers shown in Figure 15.1, what is a good estimate for the total number of German tanks?
+- $\mathbb{E}[\bar{X}] = \frac{1}{n}$
