@@ -60,5 +60,15 @@ $f_{X_1, X_2, X_3 | b}(x_1, x_2, x_3) = \begin{cases}
 \end{cases}$
 
 Clearly, this wil reach the optimal value when $b = max(x_1, x_2, x_3)$
+
+However, it is not unbiased!. It is left as an excercise to the reader to show that the expected value is not b.
+
 ## Mutliple parameters 
+
+This can be accomplished by simply taking the partial derivatives.
+
+Suppose we need to find the standard deviation and the mean of a Normal Distribution.
+
+$g(\mu, \sigma) = f_{X_1, X_2, ..., X_n | \mu, \sigma}$
+
 
